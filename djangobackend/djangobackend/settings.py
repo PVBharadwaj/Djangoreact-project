@@ -31,7 +31,7 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', '4kfjh3gkFJS!@#^hjfG36KJdhg@SDF23fjD
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['Djangoreact-project.onrender.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['djangoreact-project-ua0z.onrender.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
