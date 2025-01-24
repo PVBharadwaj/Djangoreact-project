@@ -8,7 +8,8 @@ function App() {
   useEffect(() => {
     async function getAllStudent() {
       try {
-        const students = await axios.get("http://127.0.0.1:8000/api/student/");
+        // const students = await axios.get("http://127.0.0.1:8000/api/student/");
+        const students = await axios.get(process.env.REACT_APP_API_URL);
         console.log(students.data);
         setStudents(students.data);
       } catch (error) {
