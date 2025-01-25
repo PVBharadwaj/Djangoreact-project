@@ -27,19 +27,23 @@
 .App-link {
   color: #61dafb;
 }
-/* App.css */
 
-/* Styling for the container */
+.total {
+  background-color: #f2f2f2;
+  height: 100vh;
+}
+
 .container {
-  background-color:skyblue; /* Container background color */
-  margin: 0 auto; /* Center the container horizontally */
-  max-width: 800px; /* Set a maximum width for the container */
-  padding: 20px; /* Add padding for spacing inside the container */
+  background-color:rgb(145, 88, 88); 
+  margin: 0 auto;
+  max-width: 800px; 
+  padding: 20px; 
+
 }
 
 /* Styling for the header */
 header {
-  background-color: rgb(182, 182, 101); /* Header background color */
+  background-color: rgb(101, 182, 179); /* Header background color */
   padding: 10px; /* Add padding for spacing inside the header */
   text-align: center; /* Center-align the text */
 }
